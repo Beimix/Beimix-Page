@@ -9,7 +9,7 @@ console.log(contenedorLight)
 
 imagenes.forEach(imagen =>{
 	imagen.addEventListener('click',()=>{
-		aparecerImagen(imagen.getAttribute('scr'))
+		aparecerImagen(imagen.getAttribute('src'))
 	})
 })
 
@@ -22,7 +22,7 @@ contenedorLight.addEventListener('click', (e)=>{
 })
 
 const aparecerImagen = (imagen)=>{
-	imagenesLight.scr = imagen;
+	imagenesLight.src = imagen;
 	contenedorLight.classList.toggle('show')
 	imagenesLight.classList.toggle('showImage')
 	navegar1.style.opacity = '0'
