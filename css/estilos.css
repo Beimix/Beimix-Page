@@ -40,6 +40,15 @@ header{
 
 }
 
+.head h1{
+	animation: moverIzquierda 1s ease-in ;
+}
+
+.head h2{
+	animation: moverDerecha 1s ease-in ;
+}
+
+
 .navegar{
 	position: fixed;
 	top: 30px;
@@ -257,3 +266,34 @@ footer{
 	background: white;
 	margin-bottom: 60px ;
 }
+
+/* ANIMACION */
+
+@keyframes moverIzquierda{
+
+	0%{
+		opacity: 0;
+		transform: translateX(-100px);
+	}	
+
+	100%{
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+@keyframes moverDerecha{
+
+	0%{
+		opacity: 0;
+		transform: translateX(100px);
+	}	
+
+	100%{
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+
+
