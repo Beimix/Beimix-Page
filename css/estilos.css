@@ -81,14 +81,16 @@ header{
 }
 
 .menu-navegacion a{
-	color: black;
+	color: blueviolet;
+	text-decoration: none;
 	font-size: 30px;
 }
 
 .menu-navegacion a:hover{
-	background: blueviolet;
+	background: blueviolet ;
 	color: white;
 	border-radius: 10px;
+	width: 50%;
 }
 
 .titulo{
