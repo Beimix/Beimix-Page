@@ -44,7 +44,7 @@ header{
 	animation: moverIzquierda 1s ease-in ;
 }
 
-.head h2{
+.head p{
 	animation: moverDerecha 1s ease-in ;
 }
 
