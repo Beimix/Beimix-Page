@@ -133,9 +133,14 @@ header{
 	margin-bottom: 20px;
 }
 
+.service p{
+	font-size: 10px;
+}
+
 .n-service{
 	margin-bottom: 7px;
 	color: purple;
+	font-size: 30px;
 }
 
 .number {
